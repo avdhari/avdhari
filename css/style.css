@@ -1,7 +1,7 @@
 @import url('./fonts.css');
 
 @import url(./partials/_variables.css);
-        
+
 @import url(./partials/_global.css);
 
 /*nav*/
@@ -15,25 +15,16 @@
 }
 
 .header-area .main-menu .nav-item .nav-link{
-    font: normal 500 15px/2px var(--roboto);
+    font: normal bold 500 15px/2px var(--roboto);
+    font-size: 1.2rem;
     padding: 1.7rem;
     color: var(--title-color);
 }
 
-/* .header-area .main-menu .navbar-nav .active a{
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
 
 .header-area .main-menu .navbar-nav a:hover{
-    background-color: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-} */
+    -webkit-text-fill-color: #064ea1;
+}
 
 
 
@@ -79,3 +70,68 @@
 
 
 /*end of banner-area*/
+
+
+/*about area*/
+
+.site-main .about-area{
+    /* margin-top: 15rem; */
+    padding: 10rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/60px var(--roboto);
+    letter-spacing: 5px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/*end of about area*/
+
+
+/* Brand area */
+
+.site-main .brand-area{
+    padding: 1rem 20rem;
+    margin-bottom: 4rem;
+}
+
+.site-main .brand-area .first-row .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand{
+    text-align: center;
+    padding: 0rem 0rem;
+    margin: .9rem 0;
+    width: auto;
+    height: 100px;
+    cursor: pointer;
+    transition: transform .4s ease;
+}
+
+/* .site-main .brand-area .first-row .col-lg-4 > .single-brand{
+    width: 50%;
+} */
+.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+
+}
+
+
+.site-main .brand-area .experience-area span{
+    display: block;
+}
+
+.site-main .brand-area .experience-area .years{
+    border: dotted;
+    padding: 15px 15px;
+    
+}
+
+/* End of Brand area */
