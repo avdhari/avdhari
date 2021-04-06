@@ -128,10 +128,69 @@
     display: block;
 }
 
-.site-main .brand-area .experience-area .years{
-    border: dotted;
-    padding: 15px 15px;
+.site-main .brand-area .experience-area{
+
+    padding-top: 7.5rem;
+    padding-left: 2rem;
+    /* padding-right: 1rem; */
+    /* padding-left: 5rem; */
+
+    width: 32em;
+    height: 25rem;
+    color: #1b262c;
     
+    background: #fcfcfc;
+   
+
+}
+
+.site-main .brand-area .experience-area .years{
+    font: normal bold 50px var(--roboto);
+}
+
+
+.site-main .brand-area .experience-area .contact-area{
+    padding-top: 25px;
+    color: #866e59;
+}
+
+.site-main .brand-area .experience-area .contact-area .mail{
+    font: normal bold 25px var(--roboto);
+    padding-top: 5px;
+    color: #3c415c;
 }
 
 /* End of Brand area */
+
+
+
+
+/* Services Area */
+
+.site-main .services-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 14rem;
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 3rem;
+}
+
+.site-main > .services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 2rem 0rem;
+    transition: box-shadow .4s ease;
+}
+
+.site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+
+
+
+/* End of Services Area */
