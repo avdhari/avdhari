@@ -43,8 +43,8 @@
 
 /* .site-main .site-banner{
     background: url('../img/illustration3.jpg') no-repeat 0% 50%;
-     */
-}
+     
+}*/
 
 .site-main .site-banner .site-title{
     align-content: flex-end;
@@ -169,7 +169,7 @@
     font: normal bold 2rem var(--roboto);
     padding-top: 5px;
     color: #3c415c;
-    border: 2px black double;
+    border: 2px black solid;
     padding: 20px 50px;
 }
 
