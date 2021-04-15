@@ -14,6 +14,13 @@
     padding: 1rem 15rem;
 }
 
+.header-area .main-menu .nav-item .fab{
+    color: black;
+    padding: 1rem 1rem;
+}
+
+
+
 .header-area .main-menu .nav-item .nav-link{
     font: normal bold 500 15px/2px var(--roboto);
     font-size: 1.2rem;
@@ -130,13 +137,13 @@
 
 .site-main .brand-area .experience-area{
 
-    padding-top: 7.5rem;
+    padding-top: 4rem;
     padding-left: 2rem;
     /* padding-right: 1rem; */
     /* padding-left: 5rem; */
 
     width: 32em;
-    height: 25rem;
+    height: 20rem;
     color: #1b262c;
     
     background: #fcfcfc;
@@ -145,7 +152,7 @@
 }
 
 .site-main .brand-area .experience-area .years{
-    font: normal bold 50px var(--roboto);
+    font: normal bold 4rem var(--roboto);
 }
 
 
@@ -154,10 +161,16 @@
     color: #866e59;
 }
 
+.site-main .brand-area .experience-area .contact-area .fas{
+    padding-top: 15px;
+}
+
 .site-main .brand-area .experience-area .contact-area .mail{
-    font: normal bold 25px var(--roboto);
+    font: normal bold 2rem var(--roboto);
     padding-top: 5px;
     color: #3c415c;
+    border: 2px black double;
+    padding: 20px 50px;
 }
 
 /* End of Brand area */
