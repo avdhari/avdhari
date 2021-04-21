@@ -4,6 +4,12 @@
 
 @import url('./partials/_global.css');
 
+@font-face{
+    font-family: "Roboto";
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+
+}
+
 /*nav*/
 
 .header-area .main-menu .navbar .navbar-brand{
