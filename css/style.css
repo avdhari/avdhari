@@ -1,14 +1,16 @@
-@import url('./fonts.css');
 
-@import url('./partials/_variables.css');
+/* import fonts from fonts.css file */ 
+@import url(./fonts.css);
 
-@import url('./partials/_global.css');
 
-@font-face{
-    font-family: "Roboto";
-    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+/* css variables */ 
+@import url(./partials/_variables.css);
 
-}
+/* import global styling */ 
+@import url(./partials/_global.css);
+
+
+
 
 /*nav*/
 
