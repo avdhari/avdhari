@@ -24,7 +24,7 @@
 
 
 .header-area .main-menu .nav-item .nav-link{
-    font: normal bold 500 15px/2px var(--roboto);
+    font: normal bold 500 15px/2px ;
     font-size: 1.2rem;
     padding: 1.7rem;
     color: var(--title-color);
